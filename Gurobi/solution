@@ -1,0 +1,26 @@
+petri@lubunttu:~/Ohjelmointi/Gurobi$ python gurobi.py
+Restricted license - for non-production use only - expires 2025-11-24
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: Intel(R) Core(TM) i5 CPU       M 540  @ 2.53GHz, instruction set [SSE2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 2 rows, 2 columns and 4 nonzeros
+Model fingerprint: 0x1bbe0f25
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [4e+00, 5e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [6e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4000000e+31   3.750000e+30   1.400000e+01      0s
+       2    2.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.000000000e+01
+x1 4.0
+x2 0.0
+Obj: 20.0
